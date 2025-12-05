@@ -1,22 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>My Instagram Link</title>
-  <style>
-    body { font-family: system-ui, -apple-system, Roboto, sans-serif; display:flex; min-height:100vh;
-           align-items:center; justify-content:center; background:#f7f7f7; margin:0; }
-    a.button { display:inline-block; padding:12px 20px; border-radius:10px; text-decoration:none;
-               font-weight:600; box-shadow:0 6px 18px rgba(0,0,0,0.08); background:white; color:#111; }
-  </style>
-</head>
-<body>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open My Instagram</title>
 
-  <!-- Replace YOUR_INSTAGRAM_ID below with your username -->
-  <a class="button" href="https://www.instagram.com/itzz_me_axew_" target="_blank" rel="noopener noreferrer">
-    Open my Instagram
-  </a>
+    <style>
+        /* Full Instagram Gradient Background */
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        /* Center Box */
+        .card {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px 50px;
+            border-radius: 20px;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        /* Button */
+        .insta-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            margin-top: 20px;
+            background: white;
+            color: #cc2366;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: 0.3s;
+        }
+
+        .insta-btn:hover {
+            transform: scale(1.07);
+            background: #ffe6f3;
+        }
+
+        /* Instagram font style */
+        .title {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="title">Open My Instagram</div>
+
+        <a href="https://instagram.com/itzz_me_axew_" 
+           target="_blank" class="insta-btn">
+           Visit Profile
+        </a>
+    </div>
+
 </body>
 </html>
