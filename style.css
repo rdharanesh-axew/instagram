@@ -1,0 +1,14 @@
+.insta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.insta-btn:hover {
+    transform: scale(1.05);
+}
